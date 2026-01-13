@@ -197,11 +197,15 @@
     },
     {
       "player_name": "NOXvenda85",
-      "roles": "tag_prop_creator"
+      "roles": [
+        "tag_prop_creator"
+      ]
     },
     {
       "player_name": "halutuba",
-      "roles": "tag_staff"
+      "roles": [
+        "tag_staff"
+      ]
     }
   ]
 }
