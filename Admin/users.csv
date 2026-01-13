@@ -1,0 +1,12 @@
+player_name,roles
+えびごはん,auth_megaphone, auth_grab_rod, auth_image_pad, auth_world_status, tag_group_owner
+えびごはん2,auth_megaphone, auth_grab_rod, auth_image_pad, auth_world_status, tag_group_owner
+ebigohan,auth_megaphone, auth_grab_rod, auth_image_pad, auth_world_status, tag_group_owner
+れいんつ,tag_world_creator, auth_megaphone, auth_grab_rod, auth_image_pad, auth_world_status
+犬乃ぴすけ,tag_staff, auth_megaphone, auth_grab_rod, auth_image_pad, auth_world_status
+hikka06,tag_staff, auth_megaphone, auth_grab_rod, auth_image_pad
+ichiもく,tag_staff, auth_megaphone, auth_grab_rod, auth_image_pad, auth_world_status
+水瀬ハク,tag_staff, auth_megaphone, auth_grab_rod, auth_image_pad, auth_world_status
+想海さゆき,tag_staff, auth_megaphone, auth_grab_rod, auth_image_pad, auth_world_status
+NOXvenda85,tag_prop_creator
+halutuba,tag_staff
