@@ -107,7 +107,7 @@
   ],
   "admin": [
     {
-      "": "えびごはん",
+      "player_name": "えびごはん",
       "roles": [
         "auth_megaphone",
         "auth_grab_rod",
@@ -118,7 +118,7 @@
       ]
     },
     {
-      "": "えびごはん2",
+      "player_name": "えびごはん2",
       "roles": [
         "auth_megaphone",
         "auth_grab_rod",
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "": "ebigohan",
+      "player_name": "ebigohan",
       "roles": [
         "auth_megaphone",
         "auth_grab_rod",
@@ -140,7 +140,7 @@
       ]
     },
     {
-      "": "れいんつ",
+      "player_name": "れいんつ",
       "roles": [
         "tag_world_creator",
         "auth_megaphone",
@@ -151,7 +151,7 @@
       ]
     },
     {
-      "": "犬乃ぴすけ",
+      "player_name": "犬乃ぴすけ",
       "roles": [
         "tag_staff",
         "auth_megaphone",
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "": "hikka06",
+      "player_name": "hikka06",
       "roles": [
         "tag_staff",
         "auth_megaphone",
@@ -172,18 +172,7 @@
       ]
     },
     {
-      "": "ichiもく",
-      "roles": [
-        "tag_staff",
-        "auth_megaphone",
-        "auth_grab_rod",
-        "auth_image_pad",
-        "auth_world_status",
-        "auth_teleport_admin"
-      ]
-    },
-    {
-      "": "水瀬ハク",
+      "player_name": "ichiもく",
       "roles": [
         "tag_staff",
         "auth_megaphone",
@@ -194,7 +183,7 @@
       ]
     },
     {
-      "": "想海さゆき",
+      "player_name": "水瀬ハク",
       "roles": [
         "tag_staff",
         "auth_megaphone",
@@ -205,13 +194,24 @@
       ]
     },
     {
-      "": "NOXvenda85",
+      "player_name": "想海さゆき",
+      "roles": [
+        "tag_staff",
+        "auth_megaphone",
+        "auth_grab_rod",
+        "auth_image_pad",
+        "auth_world_status",
+        "auth_teleport_admin"
+      ]
+    },
+    {
+      "player_name": "NOXvenda85",
       "roles": [
         "tag_prop_creator"
       ]
     },
     {
-      "": "halutuba",
+      "player_name": "halutuba",
       "roles": [
         "tag_staff"
       ]
