@@ -107,102 +107,111 @@
   ],
   "admin": [
     {
-      "player_name": "えびごはん",
+      "": "えびごはん",
       "roles": [
         "auth_megaphone",
         "auth_grab_rod",
         "auth_image_pad",
         "auth_world_status",
-        "tag_group_owner"
+        "tag_group_owner",
+        "auth_teleport_admin"
       ]
     },
     {
-      "player_name": "えびごはん2",
+      "": "えびごはん2",
       "roles": [
         "auth_megaphone",
         "auth_grab_rod",
         "auth_image_pad",
         "auth_world_status",
-        "tag_group_owner"
+        "tag_group_owner",
+        "auth_teleport_admin"
       ]
     },
     {
-      "player_name": "ebigohan",
+      "": "ebigohan",
       "roles": [
         "auth_megaphone",
         "auth_grab_rod",
         "auth_image_pad",
         "auth_world_status",
-        "tag_group_owner"
+        "tag_group_owner",
+        "auth_teleport_admin"
       ]
     },
     {
-      "player_name": "れいんつ",
+      "": "れいんつ",
       "roles": [
         "tag_world_creator",
         "auth_megaphone",
         "auth_grab_rod",
         "auth_image_pad",
-        "auth_world_status"
+        "auth_world_status",
+        "auth_teleport_admin"
       ]
     },
     {
-      "player_name": "犬乃ぴすけ",
+      "": "犬乃ぴすけ",
       "roles": [
         "tag_staff",
         "auth_megaphone",
         "auth_grab_rod",
         "auth_image_pad",
-        "auth_world_status"
+        "auth_world_status",
+        "auth_teleport_admin"
       ]
     },
     {
-      "player_name": "hikka06",
-      "roles": [
-        "tag_staff",
-        "auth_megaphone",
-        "auth_grab_rod",
-        "auth_image_pad"
-      ]
-    },
-    {
-      "player_name": "ichiもく",
+      "": "hikka06",
       "roles": [
         "tag_staff",
         "auth_megaphone",
         "auth_grab_rod",
         "auth_image_pad",
-        "auth_world_status"
+        "auth_teleport_admin"
       ]
     },
     {
-      "player_name": "水瀬ハク",
+      "": "ichiもく",
       "roles": [
         "tag_staff",
         "auth_megaphone",
         "auth_grab_rod",
         "auth_image_pad",
-        "auth_world_status"
+        "auth_world_status",
+        "auth_teleport_admin"
       ]
     },
     {
-      "player_name": "想海さゆき",
+      "": "水瀬ハク",
       "roles": [
         "tag_staff",
         "auth_megaphone",
         "auth_grab_rod",
         "auth_image_pad",
-        "auth_world_status"
+        "auth_world_status",
+        "auth_teleport_admin"
       ]
     },
     {
-      "player_name": "NOXvenda85",
+      "": "想海さゆき",
+      "roles": [
+        "tag_staff",
+        "auth_megaphone",
+        "auth_grab_rod",
+        "auth_image_pad",
+        "auth_world_status",
+        "auth_teleport_admin"
+      ]
+    },
+    {
+      "": "NOXvenda85",
       "roles": [
         "tag_prop_creator"
       ]
     },
     {
-      "player_name": "halutuba",
+      "": "halutuba",
       "roles": [
         "tag_staff"
       ]
