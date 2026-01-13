@@ -1,0 +1,203 @@
+{
+  "fanbox": [
+    {
+      "えびごはん": "れいんつ",
+      "normal": "normal"
+    },
+    {
+      "えびごはん": "ぴすけだよ",
+      "normal": "normal"
+    },
+    {
+      "えびごはん": "moruton",
+      "normal": "normal"
+    },
+    {
+      "えびごはん": "hikka06",
+      "normal": "normal"
+    },
+    {
+      "えびごはん": "さばーーん",
+      "normal": "normal"
+    },
+    {
+      "えびごはん": "736NAZ",
+      "normal": "normal"
+    },
+    {
+      "えびごはん": "Limblicious",
+      "normal": "normal"
+    },
+    {
+      "えびごはん": "Poppo",
+      "normal": "premium"
+    },
+    {
+      "えびごはん": "有坂みと",
+      "normal": "normal"
+    },
+    {
+      "えびごはん": "クリファハート(togetubridge)",
+      "normal": "premium"
+    },
+    {
+      "えびごはん": "AURORA",
+      "normal": "normal"
+    },
+    {
+      "えびごはん": "chalha",
+      "normal": "normal"
+    },
+    {
+      "えびごはん": "夏樹テル",
+      "normal": "normal"
+    },
+    {
+      "えびごはん": "水瀬ハク",
+      "normal": "normal"
+    },
+    {
+      "えびごはん": "にわさね",
+      "normal": "normal"
+    },
+    {
+      "えびごはん": "ma_ron",
+      "normal": "normal"
+    },
+    {
+      "えびごはん": "yueou",
+      "normal": "normal"
+    },
+    {
+      "えびごはん": "最上谷ゆー",
+      "normal": "normal"
+    },
+    {
+      "えびごはん": "Tetekuku",
+      "normal": "normal"
+    },
+    {
+      "えびごはん": "E_BELL",
+      "normal": "normal"
+    },
+    {
+      "えびごはん": "想海さゆき",
+      "normal": "normal"
+    },
+    {
+      "えびごはん": "坂峰さわこ",
+      "normal": "normal"
+    },
+    {
+      "えびごはん": "GODしょうた",
+      "normal": "normal"
+    },
+    {
+      "えびごはん": "七瀬ここあ",
+      "normal": "normal"
+    },
+    {
+      "えびごはん": "hatopopopo",
+      "normal": "normal"
+    }
+  ],
+  "admin": [
+    {
+      "player_name": "えびごはん",
+      "roles": [
+        "auth_megaphone",
+        "auth_grab_rod",
+        "auth_image_pad",
+        "auth_world_status",
+        "tag_group_owner"
+      ]
+    },
+    {
+      "player_name": "えびごはん2",
+      "roles": [
+        "auth_megaphone",
+        "auth_grab_rod",
+        "auth_image_pad",
+        "auth_world_status",
+        "tag_group_owner"
+      ]
+    },
+    {
+      "player_name": "ebigohan",
+      "roles": [
+        "auth_megaphone",
+        "auth_grab_rod",
+        "auth_image_pad",
+        "auth_world_status",
+        "tag_group_owner"
+      ]
+    },
+    {
+      "player_name": "れいんつ",
+      "roles": [
+        "tag_world_creator",
+        "auth_megaphone",
+        "auth_grab_rod",
+        "auth_image_pad",
+        "auth_world_status"
+      ]
+    },
+    {
+      "player_name": "犬乃ぴすけ",
+      "roles": [
+        "tag_staff",
+        "auth_megaphone",
+        "auth_grab_rod",
+        "auth_image_pad",
+        "auth_world_status"
+      ]
+    },
+    {
+      "player_name": "hikka06",
+      "roles": [
+        "tag_staff",
+        "auth_megaphone",
+        "auth_grab_rod",
+        "auth_image_pad"
+      ]
+    },
+    {
+      "player_name": "ichiもく",
+      "roles": [
+        "tag_staff",
+        "auth_megaphone",
+        "auth_grab_rod",
+        "auth_image_pad",
+        "auth_world_status"
+      ]
+    },
+    {
+      "player_name": "水瀬ハク",
+      "roles": [
+        "tag_staff",
+        "auth_megaphone",
+        "auth_grab_rod",
+        "auth_image_pad",
+        "auth_world_status"
+      ]
+    },
+    {
+      "player_name": "想海さゆき",
+      "roles": [
+        "tag_staff",
+        "auth_megaphone",
+        "auth_grab_rod",
+        "auth_image_pad",
+        "auth_world_status"
+      ]
+    },
+    {
+      "player_name": "NOXvenda85",
+      "roles": "tag_prop_creator"
+    },
+    {
+      "player_name": "halutuba",
+      "roles": "tag_staff"
+    }
+  ]
+}
