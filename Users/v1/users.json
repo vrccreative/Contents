@@ -109,99 +109,99 @@
     {
       "player_name": "えびごはん",
       "roles": [
-        "auth_megaphone",
-        "auth_grab_rod",
-        "auth_image_pad",
-        "auth_world_status",
+        "perm_megaphone",
+        "perm_grab_rod",
+        "perm_image_pad",
+        "perm_world_status",
         "tag_group_owner",
-        "auth_teleport_admin"
+        "perm_teleport_admin"
       ]
     },
     {
       "player_name": "えびごはん2",
       "roles": [
-        "auth_megaphone",
-        "auth_grab_rod",
-        "auth_image_pad",
-        "auth_world_status",
+        "perm_megaphone",
+        "perm_grab_rod",
+        "perm_image_pad",
+        "perm_world_status",
         "tag_group_owner",
-        "auth_teleport_admin"
+        "perm_teleport_admin"
       ]
     },
     {
       "player_name": "ebigohan",
       "roles": [
-        "auth_megaphone",
-        "auth_grab_rod",
-        "auth_image_pad",
-        "auth_world_status",
+        "perm_megaphone",
+        "perm_grab_rod",
+        "perm_image_pad",
+        "perm_world_status",
         "tag_group_owner",
-        "auth_teleport_admin"
+        "perm_teleport_admin"
       ]
     },
     {
       "player_name": "れいんつ",
       "roles": [
         "tag_world_creator",
-        "auth_megaphone",
-        "auth_grab_rod",
-        "auth_image_pad",
-        "auth_world_status",
-        "auth_teleport_admin"
+        "perm_megaphone",
+        "perm_grab_rod",
+        "perm_image_pad",
+        "perm_world_status",
+        "perm_teleport_admin"
       ]
     },
     {
       "player_name": "犬乃ぴすけ",
       "roles": [
         "tag_staff",
-        "auth_megaphone",
-        "auth_grab_rod",
-        "auth_image_pad",
-        "auth_world_status",
-        "auth_teleport_admin"
+        "perm_megaphone",
+        "perm_grab_rod",
+        "perm_image_pad",
+        "perm_world_status",
+        "perm_teleport_admin"
       ]
     },
     {
       "player_name": "hikka06",
       "roles": [
         "tag_staff",
-        "auth_megaphone",
-        "auth_grab_rod",
-        "auth_image_pad",
-        "auth_teleport_admin"
+        "perm_megaphone",
+        "perm_grab_rod",
+        "perm_image_pad",
+        "perm_teleport_admin"
       ]
     },
     {
       "player_name": "ichiもく",
       "roles": [
         "tag_staff",
-        "auth_megaphone",
-        "auth_grab_rod",
-        "auth_image_pad",
-        "auth_world_status",
-        "auth_teleport_admin"
+        "perm_megaphone",
+        "perm_grab_rod",
+        "perm_image_pad",
+        "perm_world_status",
+        "perm_teleport_admin"
       ]
     },
     {
       "player_name": "水瀬ハク",
       "roles": [
         "tag_staff",
-        "auth_megaphone",
-        "auth_grab_rod",
-        "auth_image_pad",
-        "auth_world_status",
-        "auth_teleport_admin"
+        "perm_megaphone",
+        "perm_grab_rod",
+        "perm_image_pad",
+        "perm_world_status",
+        "perm_teleport_admin"
       ]
     },
     {
       "player_name": "想海さゆき",
       "roles": [
         "tag_staff",
-        "auth_megaphone",
-        "auth_grab_rod",
-        "auth_image_pad",
-        "auth_world_status",
-        "auth_teleport_admin"
+        "perm_megaphone",
+        "perm_grab_rod",
+        "perm_image_pad",
+        "perm_world_status",
+        "perm_teleport_admin"
       ]
     },
     {
