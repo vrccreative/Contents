@@ -1,104 +1,108 @@
 {
   "fanbox": [
     {
-      "えびごはん": "れいんつ",
-      "normal": "normal"
+      "player_name": "えびごはん",
+      "tier": "normal"
     },
     {
-      "えびごはん": "ぴすけだよ",
-      "normal": "normal"
+      "player_name": "れいんつ",
+      "tier": "normal"
     },
     {
-      "えびごはん": "moruton",
-      "normal": "normal"
+      "player_name": "ぴすけだよ",
+      "tier": "normal"
     },
     {
-      "えびごはん": "hikka06",
-      "normal": "normal"
+      "player_name": "moruton",
+      "tier": "normal"
     },
     {
-      "えびごはん": "さばーーん",
-      "normal": "normal"
+      "player_name": "hikka06",
+      "tier": "normal"
     },
     {
-      "えびごはん": "736NAZ",
-      "normal": "normal"
+      "player_name": "さばーーん",
+      "tier": "normal"
     },
     {
-      "えびごはん": "Limblicious",
-      "normal": "normal"
+      "player_name": "736NAZ",
+      "tier": "normal"
     },
     {
-      "えびごはん": "Poppo",
-      "normal": "premium"
+      "player_name": "Limblicious",
+      "tier": "normal"
     },
     {
-      "えびごはん": "有坂みと",
-      "normal": "normal"
+      "player_name": "Poppo",
+      "tier": "premium"
     },
     {
-      "えびごはん": "クリファハート(togetubridge)",
-      "normal": "premium"
+      "player_name": "有坂みと",
+      "tier": "normal"
     },
     {
-      "えびごはん": "AURORA",
-      "normal": "normal"
+      "player_name": "クリファハート(togetubridge)",
+      "tier": "premium"
     },
     {
-      "えびごはん": "chalha",
-      "normal": "normal"
+      "player_name": "AURORA",
+      "tier": "normal"
     },
     {
-      "えびごはん": "夏樹テル",
-      "normal": "normal"
+      "player_name": "chalha",
+      "tier": "normal"
     },
     {
-      "えびごはん": "水瀬ハク",
-      "normal": "normal"
+      "player_name": "夏樹テル",
+      "tier": "normal"
     },
     {
-      "えびごはん": "にわさね",
-      "normal": "normal"
+      "player_name": "水瀬ハク",
+      "tier": "normal"
     },
     {
-      "えびごはん": "ma_ron",
-      "normal": "normal"
+      "player_name": "にわさね",
+      "tier": "normal"
     },
     {
-      "えびごはん": "yueou",
-      "normal": "normal"
+      "player_name": "ma_ron",
+      "tier": "normal"
     },
     {
-      "えびごはん": "最上谷ゆー",
-      "normal": "normal"
+      "player_name": "yueou",
+      "tier": "normal"
     },
     {
-      "えびごはん": "Tetekuku",
-      "normal": "normal"
+      "player_name": "最上谷ゆー",
+      "tier": "normal"
     },
     {
-      "えびごはん": "E_BELL",
-      "normal": "normal"
+      "player_name": "Tetekuku",
+      "tier": "normal"
     },
     {
-      "えびごはん": "想海さゆき",
-      "normal": "normal"
+      "player_name": "E_BELL",
+      "tier": "normal"
     },
     {
-      "えびごはん": "坂峰さわこ",
-      "normal": "normal"
+      "player_name": "想海さゆき",
+      "tier": "normal"
     },
     {
-      "えびごはん": "GODしょうた",
-      "normal": "normal"
+      "player_name": "坂峰さわこ",
+      "tier": "normal"
     },
     {
-      "えびごはん": "七瀬ここあ",
-      "normal": "normal"
+      "player_name": "GODしょうた",
+      "tier": "normal"
     },
     {
-      "えびごはん": "hatopopopo",
-      "normal": "normal"
+      "player_name": "七瀬ここあ",
+      "tier": "normal"
+    },
+    {
+      "player_name": "hatopopopo",
+      "tier": "normal"
     }
   ],
   "admin": [
