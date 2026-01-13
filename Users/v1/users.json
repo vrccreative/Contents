@@ -1,0 +1,211 @@
+{
+  "fanbox": [
+    {
+      "player_name": "えびごはん",
+      "tier": "normal"
+    },
+    {
+      "player_name": "れいんつ",
+      "tier": "normal"
+    },
+    {
+      "player_name": "ぴすけだよ",
+      "tier": "normal"
+    },
+    {
+      "player_name": "moruton",
+      "tier": "normal"
+    },
+    {
+      "player_name": "hikka06",
+      "tier": "normal"
+    },
+    {
+      "player_name": "さばーーん",
+      "tier": "normal"
+    },
+    {
+      "player_name": "736NAZ",
+      "tier": "normal"
+    },
+    {
+      "player_name": "Limblicious",
+      "tier": "normal"
+    },
+    {
+      "player_name": "Poppo",
+      "tier": "premium"
+    },
+    {
+      "player_name": "有坂みと",
+      "tier": "normal"
+    },
+    {
+      "player_name": "クリファハート(togetubridge)",
+      "tier": "premium"
+    },
+    {
+      "player_name": "AURORA",
+      "tier": "normal"
+    },
+    {
+      "player_name": "chalha",
+      "tier": "normal"
+    },
+    {
+      "player_name": "夏樹テル",
+      "tier": "normal"
+    },
+    {
+      "player_name": "水瀬ハク",
+      "tier": "normal"
+    },
+    {
+      "player_name": "にわさね",
+      "tier": "normal"
+    },
+    {
+      "player_name": "ma_ron",
+      "tier": "normal"
+    },
+    {
+      "player_name": "yueou",
+      "tier": "normal"
+    },
+    {
+      "player_name": "最上谷ゆー",
+      "tier": "normal"
+    },
+    {
+      "player_name": "Tetekuku",
+      "tier": "normal"
+    },
+    {
+      "player_name": "E_BELL",
+      "tier": "normal"
+    },
+    {
+      "player_name": "想海さゆき",
+      "tier": "normal"
+    },
+    {
+      "player_name": "坂峰さわこ",
+      "tier": "normal"
+    },
+    {
+      "player_name": "GODしょうた",
+      "tier": "normal"
+    },
+    {
+      "player_name": "七瀬ここあ",
+      "tier": "normal"
+    },
+    {
+      "player_name": "hatopopopo",
+      "tier": "normal"
+    }
+  ],
+  "admin": [
+    {
+      "player_name": "えびごはん",
+      "roles": [
+        "auth_megaphone",
+        "auth_grab_rod",
+        "auth_image_pad",
+        "auth_world_status",
+        "tag_group_owner"
+      ]
+    },
+    {
+      "player_name": "えびごはん2",
+      "roles": [
+        "auth_megaphone",
+        "auth_grab_rod",
+        "auth_image_pad",
+        "auth_world_status",
+        "tag_group_owner"
+      ]
+    },
+    {
+      "player_name": "ebigohan",
+      "roles": [
+        "auth_megaphone",
+        "auth_grab_rod",
+        "auth_image_pad",
+        "auth_world_status",
+        "tag_group_owner"
+      ]
+    },
+    {
+      "player_name": "れいんつ",
+      "roles": [
+        "tag_world_creator",
+        "auth_megaphone",
+        "auth_grab_rod",
+        "auth_image_pad",
+        "auth_world_status"
+      ]
+    },
+    {
+      "player_name": "犬乃ぴすけ",
+      "roles": [
+        "tag_staff",
+        "auth_megaphone",
+        "auth_grab_rod",
+        "auth_image_pad",
+        "auth_world_status"
+      ]
+    },
+    {
+      "player_name": "hikka06",
+      "roles": [
+        "tag_staff",
+        "auth_megaphone",
+        "auth_grab_rod",
+        "auth_image_pad"
+      ]
+    },
+    {
+      "player_name": "ichiもく",
+      "roles": [
+        "tag_staff",
+        "auth_megaphone",
+        "auth_grab_rod",
+        "auth_image_pad",
+        "auth_world_status"
+      ]
+    },
+    {
+      "player_name": "水瀬ハク",
+      "roles": [
+        "tag_staff",
+        "auth_megaphone",
+        "auth_grab_rod",
+        "auth_image_pad",
+        "auth_world_status"
+      ]
+    },
+    {
+      "player_name": "想海さゆき",
+      "roles": [
+        "tag_staff",
+        "auth_megaphone",
+        "auth_grab_rod",
+        "auth_image_pad",
+        "auth_world_status"
+      ]
+    },
+    {
+      "player_name": "NOXvenda85",
+      "roles": [
+        "tag_prop_creator"
+      ]
+    },
+    {
+      "player_name": "halutuba",
+      "roles": [
+        "tag_staff"
+      ]
+    }
+  ]
+}
