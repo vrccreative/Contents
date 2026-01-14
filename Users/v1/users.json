@@ -114,7 +114,9 @@
         "perm_image_pad",
         "perm_world_status",
         "tag_group_owner",
-        "perm_teleport_admin"
+        "perm_teleport_admin",
+        "perm_cardboard",
+        "perm_reset_pen"
       ]
     },
     {
@@ -125,7 +127,9 @@
         "perm_image_pad",
         "perm_world_status",
         "tag_group_owner",
-        "perm_teleport_admin"
+        "perm_teleport_admin",
+        "perm_cardboard",
+        "perm_reset_pen"
       ]
     },
     {
@@ -136,7 +140,9 @@
         "perm_image_pad",
         "perm_world_status",
         "tag_group_owner",
-        "perm_teleport_admin"
+        "perm_teleport_admin",
+        "perm_cardboard",
+        "perm_reset_pen"
       ]
     },
     {
@@ -146,7 +152,10 @@
         "perm_megaphone",
         "perm_image_pad",
         "perm_world_status",
-        "perm_teleport_admin"
+        "perm_teleport_admin",
+        "perm_cardboard",
+        "perm_reset_pen",
+        "perm_grab_rod"
       ]
     },
     {
@@ -157,7 +166,9 @@
         "perm_grab_rod",
         "perm_image_pad",
         "perm_world_status",
-        "perm_teleport_admin"
+        "perm_teleport_admin",
+        "perm_cardboard",
+        "perm_reset_pen"
       ]
     },
     {
@@ -166,8 +177,10 @@
         "tag_staff",
         "perm_megaphone",
         "perm_grab_rod",
+        "perm_teleport_admin",
+        "perm_cardboard",
         "perm_image_pad",
-        "perm_teleport_admin"
+        "perm_reset_pen"
       ]
     },
     {
