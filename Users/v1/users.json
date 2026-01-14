@@ -225,7 +225,10 @@
     {
       "player_name": "halutuba",
       "roles": [
-        "tag_staff"
+        "tag_staff",
+        "perm_megaphone",
+        "perm_image_pad",
+        "perm_grab_rod"
       ]
     }
   ]
