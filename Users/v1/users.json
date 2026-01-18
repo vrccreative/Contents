@@ -151,6 +151,7 @@
         "tag_world_creator",
         "perm_megaphone",
         "perm_image_pad",
+        "perm_world_status",
         "perm_teleport_admin",
         "perm_cardboard",
         "perm_reset_pen",
