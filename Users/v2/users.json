@@ -1,0 +1,235 @@
+{
+  "fanbox": [
+    {
+      "player_name": "えびごはん",
+      "tier": "normal"
+    },
+    {
+      "player_name": "れいんつ",
+      "tier": "normal"
+    },
+    {
+      "player_name": "ぴすけだよ",
+      "tier": "normal"
+    },
+    {
+      "player_name": "moruton",
+      "tier": "normal"
+    },
+    {
+      "player_name": "hikka06",
+      "tier": "normal"
+    },
+    {
+      "player_name": "さばーーん",
+      "tier": "normal"
+    },
+    {
+      "player_name": "736NAZ",
+      "tier": "normal"
+    },
+    {
+      "player_name": "Limblicious",
+      "tier": "normal"
+    },
+    {
+      "player_name": "Poppo",
+      "tier": "premium"
+    },
+    {
+      "player_name": "有坂みと",
+      "tier": "normal"
+    },
+    {
+      "player_name": "クリファハート(togetubridge)",
+      "tier": "premium"
+    },
+    {
+      "player_name": "AURORA",
+      "tier": "normal"
+    },
+    {
+      "player_name": "chalha",
+      "tier": "normal"
+    },
+    {
+      "player_name": "夏樹テル",
+      "tier": "normal"
+    },
+    {
+      "player_name": "水瀬ハク",
+      "tier": "normal"
+    },
+    {
+      "player_name": "にわさね",
+      "tier": "normal"
+    },
+    {
+      "player_name": "ma_ron",
+      "tier": "normal"
+    },
+    {
+      "player_name": "yueou",
+      "tier": "normal"
+    },
+    {
+      "player_name": "最上谷ゆー",
+      "tier": "normal"
+    },
+    {
+      "player_name": "Tetekuku",
+      "tier": "normal"
+    },
+    {
+      "player_name": "E_BELL",
+      "tier": "normal"
+    },
+    {
+      "player_name": "想海さゆき",
+      "tier": "normal"
+    },
+    {
+      "player_name": "坂峰さわこ",
+      "tier": "normal"
+    },
+    {
+      "player_name": "GODしょうた",
+      "tier": "normal"
+    },
+    {
+      "player_name": "七瀬ここあ",
+      "tier": "normal"
+    },
+    {
+      "player_name": "hatopopopo",
+      "tier": "normal"
+    }
+  ],
+  "admin": [
+    {
+      "player_name": "えびごはん",
+      "roles": [
+        "perm_megaphone",
+        "perm_grab_rod",
+        "perm_image_pad",
+        "perm_world_status",
+        "tag_group_owner",
+        "perm_teleport_admin",
+        "perm_cardboard",
+        "perm_reset_pen"
+      ]
+    },
+    {
+      "player_name": "えびごはん2",
+      "roles": [
+        "perm_megaphone",
+        "perm_grab_rod",
+        "perm_image_pad",
+        "perm_world_status",
+        "tag_group_owner",
+        "perm_teleport_admin",
+        "perm_cardboard",
+        "perm_reset_pen"
+      ]
+    },
+    {
+      "player_name": "ebigohan",
+      "roles": [
+        "perm_megaphone",
+        "perm_grab_rod",
+        "perm_image_pad",
+        "perm_world_status",
+        "tag_group_owner",
+        "perm_teleport_admin",
+        "perm_cardboard",
+        "perm_reset_pen"
+      ]
+    },
+    {
+      "player_name": "れいんつ",
+      "roles": [
+        "tag_world_creator",
+        "perm_megaphone",
+        "perm_image_pad",
+        "perm_world_status",
+        "perm_teleport_admin",
+        "perm_cardboard",
+        "perm_reset_pen",
+        "perm_grab_rod"
+      ]
+    },
+    {
+      "player_name": "犬乃ぴすけ",
+      "roles": [
+        "tag_staff",
+        "perm_megaphone",
+        "perm_grab_rod",
+        "perm_image_pad",
+        "perm_world_status",
+        "perm_teleport_admin",
+        "perm_cardboard",
+        "perm_reset_pen"
+      ]
+    },
+    {
+      "player_name": "hikka06",
+      "roles": [
+        "tag_staff",
+        "perm_megaphone",
+        "perm_grab_rod",
+        "perm_teleport_admin",
+        "perm_cardboard",
+        "perm_image_pad",
+        "perm_reset_pen"
+      ]
+    },
+    {
+      "player_name": "ichiもく",
+      "roles": [
+        "tag_staff",
+        "perm_megaphone",
+        "perm_grab_rod",
+        "perm_image_pad",
+        "perm_world_status",
+        "perm_teleport_admin"
+      ]
+    },
+    {
+      "player_name": "水瀬ハク",
+      "roles": [
+        "tag_staff",
+        "perm_megaphone",
+        "perm_grab_rod",
+        "perm_image_pad",
+        "perm_world_status",
+        "perm_teleport_admin"
+      ]
+    },
+    {
+      "player_name": "想海さゆき",
+      "roles": [
+        "tag_staff",
+        "perm_megaphone",
+        "perm_grab_rod",
+        "perm_image_pad",
+        "perm_world_status",
+        "perm_teleport_admin"
+      ]
+    },
+    {
+      "player_name": "NOXvenda85",
+      "roles": [
+        "tag_prop_modeler"
+      ]
+    },
+    {
+      "player_name": "halutuba",
+      "roles": [
+        "tag_staff",
+        "perm_megaphone",
+        "perm_image_pad",
+        "perm_grab_rod"
+      ]
+    }
+  ]
+}
