@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>FANBOX ファン一覧 → CSV Bookmarklet</title>
+<style>
+  body { font-family: "Yu Gothic UI", "Segoe UI", sans-serif; max-width: 820px; margin: 2em auto; padding: 0 1em; line-height: 1.7; color: #222; }
+  h1 { font-size: 1.4em; border-bottom: 2px solid #06f; padding-bottom: 0.3em; }
+  h2 { font-size: 1.1em; margin-top: 1.8em; }
+  a.bm { display: inline-block; padding: 0.7em 1.4em; background: #06f; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.05em; }
+  a.bm:hover { background: #05d; }
+  pre { background: #f4f4f4; border: 1px solid #ddd; padding: 1em; overflow-x: auto; font-size: 0.82em; line-height: 1.5; }
+  code { background: #f4f4f4; padding: 0.1em 0.3em; border-radius: 3px; font-size: 0.9em; }
+  ol li { margin-bottom: 0.3em; }
+  .note { background: #fffbe6; border-left: 4px solid #f0b400; padding: 0.6em 1em; margin: 1em 0; font-size: 0.9em; }
+</style>
+</head>
+<body>
+
+<h1>FANBOX ファン一覧 → CSV Bookmarklet</h1>
+
+<p>pixivFANBOX のファン一覧管理ページから <code>ユーザー名, プラン名, 加入日</code> の CSV を書き出すブックマークレット。</p>
+
+<h2>使い方</h2>
+<ol>
+  <li>下のボタンをブックマークバーにドラッグ＆ドロップして登録</li>
+  <li><code>https://{クリエイター名}.fanbox.cc/manage/relationships</code> を開く</li>
+  <li>ファン数が多い場合は一覧を末尾までスクロールして全件描画させる</li>
+  <li>登録したブックマークをクリック → <code>fanbox_fans_YYYYMMDD.csv</code> がダウンロードされる</li>
+</ol>
+
+<div class="note">
+  CSV は UTF-8 BOM 付きで出力されるため、Excel でそのまま開いても文字化けしません。
+  ファイル名の日付はブックマーク実行時のローカル日付です。
+</div>
+
+<p><a id="bm" class="bm" href="#">FANBOX ファン一覧 → CSV</a></p>
+
+<h2>ソース</h2>
+<pre id="src"></pre>
+
+<script>
+// ===== ブックマークレット本体 =====
+// ページ構造（styled-components のハッシュクラス）に対して、
+// コンポーネント名プレフィックスの部分一致セレクタで抽出する。
+function fanboxCsv() {
+  try {
+    var rows = document.querySelectorAll('div[class*=__Tr-]');
+    if (!rows.length) {
+      alert('ファン一覧の行が見つかりませんでした。FANBOX の manage/relationships ページで実行してください。');
+      return;
+    }
+    var data = [];
+    rows.forEach(function (row) {
+      var cells = row.querySelectorAll('div[class*=__Td-]');
+      if (cells.length < 3) return;
+      var userEl = cells[0].querySelector('a[class*=Row__UserWrapper] [class*=TextEllipsis]')
+                || cells[0].querySelector('[class*=TextEllipsis]');
+      var planEl = cells[1].querySelector('[class*=TextEllipsis]');
+      var username = ((userEl && userEl.textContent) || '').trim();
+      var plan     = ((planEl && planEl.textContent) || cells[1].textContent || '').trim();
+      var joined   = (cells[2].textContent || '').trim();
+      if (!/\d+年\d+月\d+日/.test(joined)) return;
+      data.push([username, plan, joined]);
+    });
+    if (!data.length) {
+      alert('ファン情報が見つかりませんでした');
+      return;
+    }
+    var esc = function (v) {
+      v = String(v == null ? '' : v);
+      return /["\r\n,]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v;
+    };
+    var header = ['ユーザー名', 'プラン名', '加入日'];
+    var csv = '\uFEFF' + [header].concat(data).map(function (r) {
+      return r.map(esc).join(',');
+    }).join('\r\n') + '\r\n';
+    var d = new Date();
+    var pad = function (n) { return (n < 10 ? '0' : '') + n; };
+    var fname = 'fanbox_fans_' + d.getFullYear() + pad(d.getMonth() + 1) + pad(d.getDate()) + '.csv';
+    var blob = new Blob([csv], { type: 'text/csv;charset=utf-8' });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = fname;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+    console.log('[fanbox-csv] ' + data.length + ' 件を書き出しました: ' + fname);
+  } catch (e) {
+    alert('CSV 出力に失敗しました: ' + ((e && e.message) || e));
+  }
+}
+
+// ===== リンクへ javascript: URI を注入 =====
+(function () {
+  var src = fanboxCsv.toString();
+  // 各行を trim して空行を除去し、空白 1 つでつなぐ簡易 minify。
+  // 本関数内には // 行コメントも、文字列リテラル内の改行も無いため、この処理で壊れない。
+  var min = src.split('\n').map(function (l) { return l.trim(); }).filter(Boolean).join(' ');
+  var href = 'javascript:(' + min + ')();void 0;';
+  document.getElementById('bm').href = href;
+  // 表示用には元のインデント付きソースを出す
+  document.getElementById('src').textContent = src;
+})();
+</script>
+
+</body>
+</html>
