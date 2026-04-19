@@ -1,5 +1,14 @@
 {
-  "fanbox": [],
+  "fanbox": [
+    {
+      "player_name": "えびごはん",
+      "tier": "lite"
+    },
+    {
+      "player_name": "れいんつ",
+      "tier": "lite"
+    }
+  ],
   "admin": [
     {
       "player_name": "えびごはん",
