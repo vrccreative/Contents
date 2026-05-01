@@ -2,7 +2,7 @@
   "fanbox": [
     {
       "player_name": "れいんつ",
-      "tier": "premium"
+      "tier": "lite"
     },
     {
       "player_name": "夏樹テル",
@@ -23,10 +23,6 @@
     {
       "player_name": "Yueou",
       "tier": "lite"
-    },
-    {
-      "player_name": "えびごはん",
-      "tier": "premium"
     }
   ],
   "admin": [
