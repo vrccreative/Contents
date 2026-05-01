@@ -155,13 +155,11 @@
   "staff": [
     {
       "player_name": "れいんつ",
-      "tier": "premium",
-      "note": ""
+      "tier": "premium"
     },
     {
       "player_name": "えびごはん",
-      "tier": "premium",
-      "note": ""
+      "tier": "premium"
     }
   ]
 }
