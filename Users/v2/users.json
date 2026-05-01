@@ -2,31 +2,38 @@
   "fanbox": [
     {
       "player_name": "れいんつ",
-      "tier": "premium"
+      "tier": "premium",
+      "source": "staff"
     },
     {
       "player_name": "夏樹テル",
-      "tier": "lite"
+      "tier": "lite",
+      "source": "fanbox"
     },
     {
       "player_name": "七瀬ここあ",
-      "tier": "lite"
+      "tier": "lite",
+      "source": "fanbox"
     },
     {
       "player_name": "水瀬ハク",
-      "tier": "lite"
+      "tier": "lite",
+      "source": "fanbox"
     },
     {
       "player_name": "chalha",
-      "tier": "lite"
+      "tier": "lite",
+      "source": "fanbox"
     },
     {
       "player_name": "Yueou",
-      "tier": "lite"
+      "tier": "lite",
+      "source": "fanbox"
     },
     {
       "player_name": "えびごはん",
-      "tier": "premium"
+      "tier": "premium",
+      "source": "staff"
     }
   ],
   "admin": [
