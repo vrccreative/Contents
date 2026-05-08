@@ -107,6 +107,10 @@
     {
       "player_name": "-CLO",
       "tier": "lite"
+    },
+    {
+      "player_name": "FILEIN",
+      "tier": "lite"
     }
   ],
   "admin": [
