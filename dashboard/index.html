@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>くりえいてぃ部 運営ヘルスダッシュボード</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>運営ヘルスダッシュボード</h1>
+      <p class="subtitle">メンバーリストの確認と、データの自動チェック（閲覧専用）</p>
+    </div>
+    <div class="actions">
+      <span id="freshness" class="badge badge-muted">更新状況を確認中…</span>
+      <button id="reload" type="button">再読み込み</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="status" class="status status-loading">読み込み中…</section>
+
+    <section class="panel" id="warnings-panel" hidden>
+      <h2>データの状態（自動チェック）</h2>
+      <ul id="warnings" class="warnings"></ul>
+    </section>
+
+    <section class="cards" id="cards" hidden></section>
+
+    <section class="panel" id="lists-panel" hidden>
+      <h2>メンバーリスト（個別閲覧）</h2>
+      <div id="list-tabs" class="tabs"></div>
+      <p id="list-desc" class="note"></p>
+      <div id="list-missing" class="note"></div>
+      <div class="list-toolbar">
+        <input id="list-search" type="search" placeholder="名前で絞り込み…" autocomplete="off">
+        <span id="list-count" class="note"></span>
+      </div>
+      <div id="list-tiers"></div>
+      <div id="list-view" class="list-view"></div>
+    </section>
+
+    <section class="panel" id="roles-panel" hidden>
+      <h2>管理者の権限一覧</h2>
+      <p class="note">
+        権限名が正しいかどうかの自動判定はしていません（正しい一覧はワールド側のプログラムで管理しているため）。
+        権限・タグをクリックすると、それが付与されているメンバーを一覧表示します。
+      </p>
+      <div id="roles"></div>
+      <div id="role-members"></div>
+    </section>
+
+    <footer class="foot">
+      <span id="source-note" class="note"></span>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
