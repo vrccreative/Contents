@@ -148,7 +148,8 @@
         "tag_group_owner",
         "perm_teleport_admin",
         "perm_cardboard",
-        "perm_reset_pen"
+        "perm_reset_pen",
+        "perm_stage_control"
       ]
     },
     {
@@ -161,7 +162,8 @@
         "tag_group_owner",
         "perm_teleport_admin",
         "perm_cardboard",
-        "perm_reset_pen"
+        "perm_reset_pen",
+        "perm_stage_control"
       ]
     },
     {
@@ -174,7 +176,8 @@
         "tag_group_owner",
         "perm_teleport_admin",
         "perm_cardboard",
-        "perm_reset_pen"
+        "perm_reset_pen",
+        "perm_stage_control"
       ]
     },
     {
@@ -187,7 +190,8 @@
         "perm_teleport_admin",
         "perm_cardboard",
         "perm_reset_pen",
-        "perm_grab_rod"
+        "perm_grab_rod",
+        "perm_stage_control"
       ]
     },
     {
