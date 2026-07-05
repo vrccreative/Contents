@@ -1,0 +1,34 @@
+# GitHub Pages のデプロイ失敗時に自動で再ビルドを要求する。
+#
+# 背景: pages-build-deployment (GitHub管理のワークフロー) は
+# 「Deployment failed, try again later.」で失敗することがあり (GitHub側の一時要因や
+# 連続pushのデプロイ競合)、失敗すると次の push まで配信が古いまま残ってしまう。
+# users.json / announcements.json の自動配信が止まる実害があるため、失敗を検知したら
+# 少し待って POST /pages/builds で最新コミットの再ビルドを要求する。
+#
+# 無限ループについて: GITHUB_TOKEN によるAPI呼び出しは新しい workflow_run イベントの
+# 連鎖を発生させないため、リトライは実質1回で止まる。
+name: Pages deploy retry
+
+on:
+  workflow_run:
+    workflows: ["pages-build-deployment"]
+    types: [completed]
+
+permissions:
+  pages: write
+
+jobs:
+  retry:
+    if: github.event.workflow_run.conclusion == 'failure'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait before retry
+        run: sleep 60
+      - name: Request Pages rebuild
+        run: |
+          curl --fail-with-body -X POST \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${{ github.repository }}/pages/builds"
