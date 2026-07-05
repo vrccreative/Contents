@@ -1,0 +1,132 @@
+:root {
+  --bg: #0f1115;
+  --panel: #191c22;
+  --panel-2: #21252d;
+  --text: #e7e9ee;
+  --muted: #9aa2ad;
+  --line: #2c313b;
+  --ok: #46b46e;
+  --warn: #d9a531;
+  --err: #e05561;
+  --accent: #5b8bf0;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Segoe UI", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", Meiryo, sans-serif;
+  line-height: 1.6;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 24px;
+  border-bottom: 1px solid var(--line);
+  flex-wrap: wrap;
+}
+
+.crumb { margin: 0 0 4px; font-size: 12px; }
+.crumb a { color: var(--muted); text-decoration: none; }
+.crumb a:hover { color: var(--accent); }
+
+h1 { margin: 0; font-size: 20px; }
+.subtitle { margin: 2px 0 0; color: var(--muted); font-size: 13px; }
+.actions { display: flex; align-items: center; gap: 10px; }
+
+button {
+  background: var(--panel-2);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 13px;
+}
+button:hover { border-color: var(--accent); }
+
+main { padding: 20px 24px 40px; max-width: 760px; margin: 0 auto; }
+
+.status { padding: 14px 16px; border-radius: 8px; margin-bottom: 18px; font-size: 14px; }
+.status-loading { background: var(--panel); color: var(--muted); }
+.status-error { background: rgba(224,85,97,.12); color: var(--err); border: 1px solid var(--err); }
+.status-ok { background: rgba(70,180,110,.10); color: var(--ok); border: 1px solid rgba(70,180,110,.4); }
+.status-empty { background: var(--panel); color: var(--muted); }
+
+.note { color: var(--muted); font-size: 12px; }
+
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  border: 1px solid var(--line);
+}
+.badge-muted { color: var(--muted); }
+.badge-ok { color: var(--ok); border-color: rgba(70,180,110,.5); background: rgba(70,180,110,.10); }
+.badge-warn { color: var(--warn); border-color: rgba(217,165,49,.5); background: rgba(217,165,49,.12); }
+.badge-err { color: var(--err); border-color: rgba(224,85,97,.5); background: rgba(224,85,97,.12); }
+
+/* お知らせカード（ワールド内の表示順に並ぶ＝上が新しい） */
+.ann-list { display: flex; flex-direction: column; gap: 14px; }
+
+.ann-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 16px 18px;
+}
+.ann-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.ann-title { margin: 0; font-size: 16px; font-weight: 600; }
+.ann-date { color: var(--muted); font-size: 12px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+
+.ann-type {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  background: var(--panel-2);
+  vertical-align: middle;
+}
+
+.ann-body {
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: 14px;
+  color: var(--text);
+}
+.ann-body + .ann-image { margin-top: 12px; }
+
+.ann-image {
+  display: block;
+  max-width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--panel-2);
+}
+.ann-image-missing {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  color: var(--warn);
+  background: rgba(217,165,49,.10);
+  border: 1px solid rgba(217,165,49,.4);
+}
+
+.foot { margin-top: 24px; }

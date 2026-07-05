@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>くりえいてぃ部 お知らせ一覧</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="crumb"><a href="../">← トップ</a></p>
+      <h1>お知らせ一覧</h1>
+      <p class="subtitle">ワールドのメニュー「お知らせ」タブに表示中の内容（閲覧専用）</p>
+    </div>
+    <div class="actions">
+      <span id="freshness" class="badge badge-muted">更新状況を確認中…</span>
+      <button id="reload" type="button">再読み込み</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="status" class="status status-loading">読み込み中…</section>
+    <section id="list" class="ann-list" hidden></section>
+    <footer class="foot">
+      <span id="source-note" class="note"></span>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
