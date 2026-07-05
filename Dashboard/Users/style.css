@@ -31,6 +31,9 @@ body {
   flex-wrap: wrap;
 }
 
+.crumb { margin: 0 0 4px; font-size: 12px; }
+.crumb a { color: var(--muted); text-decoration: none; }
+.crumb a:hover { color: var(--accent); }
 h1 { margin: 0; font-size: 20px; }
 .subtitle { margin: 2px 0 0; color: var(--muted); font-size: 13px; }
 .actions { display: flex; align-items: center; gap: 10px; }

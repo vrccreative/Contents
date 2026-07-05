@@ -30,7 +30,8 @@ const CONFIG = {
 };
 
 const RAW_URL = `https://raw.githubusercontent.com/${CONFIG.owner}/${CONFIG.repo}/${CONFIG.branch}/${CONFIG.path}`;
-const RELATIVE_URL = `../${CONFIG.path}`;
+// このページは /Dashboard/Users/ にあり、データはリポジトリ直下の Users/ なので相対は "../../" 起点
+const RELATIVE_URL = `../../${CONFIG.path}`;
 const COMMITS_API = `https://api.github.com/repos/${CONFIG.owner}/${CONFIG.repo}/commits?path=${encodeURIComponent(CONFIG.path)}&per_page=1`;
 
 const $ = (id) => document.getElementById(id);

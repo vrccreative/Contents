@@ -6,30 +6,32 @@
  * 同じ並び（上が新しい）で一覧する。テキスト / 画像 / テキスト＋画像 に対応。
  * 依存ゼロ・CDN不使用・file:// でも動作する（データ取得はフォールバック方式）。
  *
- * このページは /Announcements/ に置かれ、データは同フォルダ内の v1/ にある。
+ * このページは /Dashboard/Announcements/ に置かれる。お知らせデータ本体は
+ * ワールド/GAS が参照するためリポジトリ直下の Announcements/v1/ に置いたままにする。
  */
 
 const CONFIG = {
   owner: "vrccreative",
   repo: "Contents",
   branch: "main",
-  // このページ（/Announcements/）から見たデータの相対パス
-  jsonRel: "v1/announcements.json",
-  imageRelDir: "v1/images",
+  // リポジトリ直下から見たデータフォルダ（ワールド/GAS と共通の場所）
+  dataDir: "Announcements/v1",
+  // このページ（/Dashboard/Announcements/）からリポジトリ直下までの相対
+  toRoot: "../..",
   // 公開は手動運用。長期間更新が無ければ気付けるよう鮮度を表示する（警告の閾値）
   freshWarnDays: 120,
 };
 
-// このフォルダ（/Announcements）の raw 基点
-const RAW_DIR = `https://raw.githubusercontent.com/${CONFIG.owner}/${CONFIG.repo}/${CONFIG.branch}/Announcements`;
+const RAW_ROOT = `https://raw.githubusercontent.com/${CONFIG.owner}/${CONFIG.repo}/${CONFIG.branch}`;
+const JSON_NAME = "announcements.json";
+const IMAGE_SUBDIR = "images";
 // commits API はリポジトリ直下からのパスで指定する
-const COMMITS_PATH = `Announcements/${CONFIG.jsonRel}`;
-const COMMITS_API = `https://api.github.com/repos/${CONFIG.owner}/${CONFIG.repo}/commits?path=${encodeURIComponent(COMMITS_PATH)}&per_page=1`;
+const COMMITS_API = `https://api.github.com/repos/${CONFIG.owner}/${CONFIG.repo}/commits?path=${encodeURIComponent(`${CONFIG.dataDir}/${JSON_NAME}`)}&per_page=1`;
 
 const $ = (id) => document.getElementById(id);
 
 // 画像URLの基点。JSONを相対で取得できたら相対、raw から取得したら raw に合わせる
-let IMG_BASE = CONFIG.imageRelDir;
+let IMG_BASE = `${CONFIG.toRoot}/${CONFIG.dataDir}/${IMAGE_SUBDIR}`;
 
 document.addEventListener("DOMContentLoaded", () => {
   $("reload").addEventListener("click", run);
@@ -54,17 +56,20 @@ async function run() {
 /* ---------- データ取得（相対 → raw フォールバック） ---------- */
 
 async function loadData() {
+  const relJson = `${CONFIG.toRoot}/${CONFIG.dataDir}/${JSON_NAME}`;
+  const relImg = `${CONFIG.toRoot}/${CONFIG.dataDir}/${IMAGE_SUBDIR}`;
   // 1) 同一オリジンの相対パス（Pages 上 / ローカル HTTP サーバー上で有効）
   try {
-    const r = await fetch(CONFIG.jsonRel, { cache: "no-store" });
-    if (r.ok) return { data: await r.json(), source: `${CONFIG.jsonRel}（同一オリジン）`, imgBase: CONFIG.imageRelDir };
+    const r = await fetch(relJson, { cache: "no-store" });
+    if (r.ok) return { data: await r.json(), source: `${relJson}（同一オリジン）`, imgBase: relImg };
   } catch (_) { /* file:// では fetch がブロックされるので raw に回す */ }
 
   // 2) raw.githubusercontent（ACAO:* のため file:// でも取得可＝ライブ公開値）
-  const rawUrl = `${RAW_DIR}/${CONFIG.jsonRel}`;
-  const r2 = await fetch(rawUrl, { cache: "no-store" });
+  const rawJson = `${RAW_ROOT}/${CONFIG.dataDir}/${JSON_NAME}`;
+  const rawImg = `${RAW_ROOT}/${CONFIG.dataDir}/${IMAGE_SUBDIR}`;
+  const r2 = await fetch(rawJson, { cache: "no-store" });
   if (!r2.ok) throw new Error(`HTTP ${r2.status}`);
-  return { data: await r2.json(), source: `${rawUrl}（ライブ公開値）`, imgBase: `${RAW_DIR}/${CONFIG.imageRelDir}` };
+  return { data: await r2.json(), source: `${rawJson}（ライブ公開値）`, imgBase: rawImg };
 }
 
 /* ---------- 鮮度（最終公開日） ---------- */
