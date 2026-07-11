@@ -73,6 +73,10 @@
       "tier": "lite"
     },
     {
+      "player_name": "HAYASABRO",
+      "tier": "standard"
+    },
+    {
       "player_name": "ゲラフール_Gerafool",
       "tier": "lite"
     },
@@ -296,10 +300,6 @@
   ],
   "fanbox_credits": [
     {
-      "fanbox_name": "21212",
-      "tier": "standard"
-    },
-    {
       "fanbox_name": "５６ちゃん",
       "tier": "lite"
     },
@@ -308,11 +308,11 @@
       "tier": "lite"
     },
     {
-      "fanbox_name": "amino",
-      "tier": "lite"
+      "fanbox_name": "Afro-da-afro",
+      "tier": "standard"
     },
     {
-      "fanbox_name": "aue",
+      "fanbox_name": "amino",
       "tier": "lite"
     },
     {
@@ -344,10 +344,6 @@
       "tier": "lite"
     },
     {
-      "fanbox_name": "Fallen-Angel_RK",
-      "tier": "lite"
-    },
-    {
       "fanbox_name": "fasterdeep0026",
       "tier": "lite"
     },
@@ -366,6 +362,10 @@
     {
       "fanbox_name": "hatopopopo",
       "tier": "lite"
+    },
+    {
+      "fanbox_name": "HAYASABRO",
+      "tier": "standard"
     },
     {
       "fanbox_name": "Hii",
@@ -468,10 +468,6 @@
       "tier": "lite"
     },
     {
-      "fanbox_name": "siromu",
-      "tier": "lite"
-    },
-    {
       "fanbox_name": "Swel",
       "tier": "lite"
     },
@@ -485,10 +481,6 @@
     },
     {
       "fanbox_name": "TNDS",
-      "tier": "lite"
-    },
-    {
-      "fanbox_name": "ｙｓ",
       "tier": "lite"
     },
     {
@@ -517,10 +509,6 @@
     },
     {
       "fanbox_name": "いくら",
-      "tier": "lite"
-    },
-    {
-      "fanbox_name": "いんく",
       "tier": "lite"
     },
     {
@@ -560,10 +548,6 @@
       "tier": "lite"
     },
     {
-      "fanbox_name": "サイレント",
-      "tier": "lite"
-    },
-    {
       "fanbox_name": "サイン",
       "tier": "lite"
     },
@@ -585,14 +569,6 @@
     },
     {
       "fanbox_name": "スギルート",
-      "tier": "lite"
-    },
-    {
-      "fanbox_name": "とーいくん",
-      "tier": "lite"
-    },
-    {
-      "fanbox_name": "とまとん",
       "tier": "lite"
     },
     {
@@ -636,10 +612,6 @@
       "tier": "lite"
     },
     {
-      "fanbox_name": "ますか きのこ",
-      "tier": "lite"
-    },
-    {
       "fanbox_name": "みずあめ",
       "tier": "lite"
     },
@@ -665,10 +637,6 @@
     },
     {
       "fanbox_name": "ルーもに",
-      "tier": "lite"
-    },
-    {
-      "fanbox_name": "レイラ・スピネル",
       "tier": "lite"
     },
     {
@@ -736,14 +704,6 @@
       "tier": "lite"
     },
     {
-      "fanbox_name": "星影 悠",
-      "tier": "lite"
-    },
-    {
-      "fanbox_name": "晴喜",
-      "tier": "lite"
-    },
-    {
       "fanbox_name": "泉Des黄roy昏",
       "tier": "lite"
     },
@@ -757,14 +717,6 @@
     },
     {
       "fanbox_name": "凪八代さめ",
-      "tier": "lite"
-    },
-    {
-      "fanbox_name": "八楼",
-      "tier": "lite"
-    },
-    {
-      "fanbox_name": "風嶺",
       "tier": "lite"
     },
     {
