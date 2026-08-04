@@ -135,6 +135,10 @@
     {
       "player_name": "凪八代さめ",
       "tier": "lite"
+    },
+    {
+      "player_name": "Mituhashiyu_i",
+      "tier": "lite"
     }
   ],
   "admin": [
@@ -308,7 +312,7 @@
       "tier": "lite"
     },
     {
-      "fanbox_name": "Afro-da-afro",
+      "fanbox_name": "afro-da-afro",
       "tier": "standard"
     },
     {
@@ -353,10 +357,6 @@
     },
     {
       "fanbox_name": "GODしょうた",
-      "tier": "lite"
-    },
-    {
-      "fanbox_name": "haitaka",
       "tier": "lite"
     },
     {
@@ -472,10 +472,6 @@
       "tier": "lite"
     },
     {
-      "fanbox_name": "takumus",
-      "tier": "lite"
-    },
-    {
       "fanbox_name": "Tetekuku",
       "tier": "lite"
     },
@@ -568,6 +564,10 @@
       "tier": "lite"
     },
     {
+      "fanbox_name": "ドンツク",
+      "tier": "lite"
+    },
+    {
       "fanbox_name": "にわさね",
       "tier": "lite"
     },
@@ -612,15 +612,15 @@
       "tier": "lite"
     },
     {
+      "fanbox_name": "みつはし",
+      "tier": "lite"
+    },
+    {
       "fanbox_name": "みゅーる",
       "tier": "lite"
     },
     {
       "fanbox_name": "やま",
-      "tier": "lite"
-    },
-    {
-      "fanbox_name": "ゆ",
       "tier": "lite"
     },
     {
@@ -696,10 +696,6 @@
       "tier": "lite"
     },
     {
-      "fanbox_name": "成瀬元",
-      "tier": "lite"
-    },
-    {
       "fanbox_name": "想夏/そなつ",
       "tier": "lite"
     },
@@ -725,10 +721,6 @@
     },
     {
       "fanbox_name": "冰川",
-      "tier": "lite"
-    },
-    {
-      "fanbox_name": "戌井ぬい",
       "tier": "lite"
     },
     {
