@@ -109,10 +109,6 @@
       "tier": "lite"
     },
     {
-      "player_name": "MochaSanani",
-      "tier": "lite"
-    },
-    {
       "player_name": "Arisaka_Mito",
       "tier": "lite"
     },
@@ -134,6 +130,10 @@
     },
     {
       "player_name": "_hoshimori_",
+      "tier": "lite"
+    },
+    {
+      "player_name": "あさぎりしき",
       "tier": "lite"
     }
   ],
@@ -400,10 +400,6 @@
       "tier": "lite"
     },
     {
-      "fanbox_name": "ma_ron",
-      "tier": "lite"
-    },
-    {
       "fanbox_name": "machiteru",
       "tier": "lite"
     },
@@ -412,19 +408,11 @@
       "tier": "lite"
     },
     {
-      "fanbox_name": "MochaSanani",
-      "tier": "lite"
-    },
-    {
       "fanbox_name": "nakanokarenn",
       "tier": "lite"
     },
     {
       "fanbox_name": "NulL_sann",
-      "tier": "lite"
-    },
-    {
-      "fanbox_name": "osin",
       "tier": "lite"
     },
     {
@@ -476,15 +464,15 @@
       "tier": "lite"
     },
     {
-      "fanbox_name": "yuk1",
-      "tier": "lite"
-    },
-    {
       "fanbox_name": "ｚｚｚ",
       "tier": "lite"
     },
     {
       "fanbox_name": "あおいるり",
+      "tier": "lite"
+    },
+    {
+      "fanbox_name": "あさぎりしき@しろくろ絵日記",
       "tier": "lite"
     },
     {
@@ -501,6 +489,10 @@
     },
     {
       "fanbox_name": "エレディアン",
+      "tier": "lite"
+    },
+    {
+      "fanbox_name": "おしん。",
       "tier": "lite"
     },
     {
@@ -624,10 +616,6 @@
       "tier": "lite"
     },
     {
-      "fanbox_name": "わたし",
-      "tier": "lite"
-    },
-    {
       "fanbox_name": "夏樹テル",
       "tier": "lite"
     },
@@ -696,15 +684,7 @@
       "tier": "lite"
     },
     {
-      "fanbox_name": "蘭つつみ",
-      "tier": "lite"
-    },
-    {
       "fanbox_name": "涼色",
-      "tier": "lite"
-    },
-    {
-      "fanbox_name": "苹果糖",
       "tier": "lite"
     },
     {
