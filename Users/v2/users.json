@@ -149,7 +149,8 @@
         "perm_teleport_admin",
         "perm_cardboard",
         "perm_reset_pen",
-        "perm_stage_control"
+        "perm_stage_control",
+        "perm_blackboard_author"
       ]
     },
     {
@@ -163,7 +164,8 @@
         "perm_teleport_admin",
         "perm_cardboard",
         "perm_reset_pen",
-        "perm_stage_control"
+        "perm_stage_control",
+        "perm_blackboard_author"
       ]
     },
     {
@@ -177,7 +179,8 @@
         "perm_teleport_admin",
         "perm_cardboard",
         "perm_reset_pen",
-        "perm_stage_control"
+        "perm_stage_control",
+        "perm_blackboard_author"
       ]
     },
     {
@@ -191,7 +194,8 @@
         "perm_cardboard",
         "perm_reset_pen",
         "perm_grab_rod",
-        "perm_stage_control"
+        "perm_stage_control",
+        "perm_blackboard_author"
       ]
     },
     {
@@ -216,7 +220,8 @@
         "perm_teleport_admin",
         "perm_cardboard",
         "perm_image_pad",
-        "perm_reset_pen"
+        "perm_reset_pen",
+        "perm_blackboard_author"
       ]
     },
     {
