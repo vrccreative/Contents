@@ -150,7 +150,7 @@
         "perm_cardboard",
         "perm_reset_pen",
         "perm_stage_control",
-        "perm_moderation_log"
+        "perm_ops_log"
       ]
     },
     {
@@ -165,7 +165,7 @@
         "perm_cardboard",
         "perm_reset_pen",
         "perm_stage_control",
-        "perm_moderation_log"
+        "perm_ops_log"
       ]
     },
     {
@@ -180,7 +180,7 @@
         "perm_cardboard",
         "perm_reset_pen",
         "perm_stage_control",
-        "perm_moderation_log"
+        "perm_ops_log"
       ]
     },
     {
@@ -195,7 +195,7 @@
         "perm_reset_pen",
         "perm_grab_rod",
         "perm_stage_control",
-        "perm_moderation_log"
+        "perm_ops_log"
       ]
     },
     {
@@ -221,7 +221,7 @@
         "perm_cardboard",
         "perm_image_pad",
         "perm_reset_pen",
-        "perm_moderation_log"
+        "perm_ops_log"
       ]
     },
     {
