@@ -17,10 +17,6 @@
       "tier": "lite"
     },
     {
-      "player_name": "Yueou",
-      "tier": "lite"
-    },
-    {
       "player_name": "E_BELL",
       "tier": "lite"
     },
@@ -45,10 +41,6 @@
       "tier": "lite"
     },
     {
-      "player_name": "ShirotsuGD",
-      "tier": "lite"
-    },
-    {
       "player_name": "すずいろ",
       "tier": "lite"
     },
@@ -62,10 +54,6 @@
     },
     {
       "player_name": "想海さゆき",
-      "tier": "lite"
-    },
-    {
-      "player_name": "はやねねる",
       "tier": "lite"
     },
     {
@@ -97,10 +85,6 @@
       "tier": "standard"
     },
     {
-      "player_name": "-CLO",
-      "tier": "lite"
-    },
-    {
       "player_name": "FILEIN",
       "tier": "lite"
     },
@@ -121,10 +105,6 @@
       "tier": "lite"
     },
     {
-      "player_name": "凪八代さめ",
-      "tier": "lite"
-    },
-    {
       "player_name": "Mituhashiyu_i",
       "tier": "lite"
     },
@@ -133,7 +113,11 @@
       "tier": "lite"
     },
     {
-      "player_name": "あさぎりしき",
+      "player_name": "levan_ira",
+      "tier": "lite"
+    },
+    {
+      "player_name": "_いつか_",
       "tier": "lite"
     }
   ],
@@ -316,10 +300,6 @@
   ],
   "fanbox_credits": [
     {
-      "fanbox_name": "５６ちゃん",
-      "tier": "lite"
-    },
-    {
       "fanbox_name": "736NAZ",
       "tier": "lite"
     },
@@ -388,11 +368,11 @@
       "tier": "lite"
     },
     {
-      "fanbox_name": "K1e /けぇさん",
+      "fanbox_name": "jten 0415",
       "tier": "lite"
     },
     {
-      "fanbox_name": "kawashimada/川島田",
+      "fanbox_name": "K1e /けぇさん",
       "tier": "lite"
     },
     {
@@ -408,6 +388,10 @@
       "tier": "lite"
     },
     {
+      "fanbox_name": "levan_ira",
+      "tier": "lite"
+    },
+    {
       "fanbox_name": "Limblicious",
       "tier": "lite"
     },
@@ -417,10 +401,6 @@
     },
     {
       "fanbox_name": "machiteru",
-      "tier": "lite"
-    },
-    {
-      "fanbox_name": "mfmf4pp0",
       "tier": "lite"
     },
     {
@@ -460,6 +440,14 @@
       "tier": "lite"
     },
     {
+      "fanbox_name": "shula",
+      "tier": "lite"
+    },
+    {
+      "fanbox_name": "SimpleTimer",
+      "tier": "standard"
+    },
+    {
       "fanbox_name": "Swel",
       "tier": "lite"
     },
@@ -476,23 +464,19 @@
       "tier": "lite"
     },
     {
-      "fanbox_name": "yueou",
-      "tier": "lite"
-    },
-    {
-      "fanbox_name": "ｚｚｚ",
-      "tier": "lite"
-    },
-    {
       "fanbox_name": "あおいるり",
       "tier": "lite"
     },
     {
-      "fanbox_name": "あさぎりしき@しろくろ絵日記",
+      "fanbox_name": "あきかんさばこ＠FANBOX",
       "tier": "lite"
     },
     {
       "fanbox_name": "いくら",
+      "tier": "lite"
+    },
+    {
+      "fanbox_name": "いつか",
       "tier": "lite"
     },
     {
@@ -548,7 +532,11 @@
       "tier": "lite"
     },
     {
-      "fanbox_name": "しろつ",
+      "fanbox_name": "しろりんご",
+      "tier": "standard"
+    },
+    {
+      "fanbox_name": "ちゃる",
       "tier": "lite"
     },
     {
@@ -565,6 +553,10 @@
     },
     {
       "fanbox_name": "ねこす",
+      "tier": "lite"
+    },
+    {
+      "fanbox_name": "はやねねる",
       "tier": "lite"
     },
     {
@@ -616,6 +608,10 @@
       "tier": "lite"
     },
     {
+      "fanbox_name": "ゆーきたいち！",
+      "tier": "standard"
+    },
+    {
       "fanbox_name": "らさ@由紀P",
       "tier": "lite"
     },
@@ -628,7 +624,15 @@
       "tier": "lite"
     },
     {
+      "fanbox_name": "れいせん",
+      "tier": "lite"
+    },
+    {
       "fanbox_name": "れいんつ",
+      "tier": "lite"
+    },
+    {
+      "fanbox_name": "稲荷凪dayo＿お稲荷様のからくり堂",
       "tier": "lite"
     },
     {
@@ -645,10 +649,6 @@
     },
     {
       "fanbox_name": "紅の醤油",
-      "tier": "lite"
-    },
-    {
-      "fanbox_name": "黒猫のそれ／かたわれ",
       "tier": "lite"
     },
     {
@@ -692,7 +692,11 @@
       "tier": "lite"
     },
     {
-      "fanbox_name": "凪八代さめ",
+      "fanbox_name": "蛸乃ゆえ",
+      "tier": "lite"
+    },
+    {
+      "fanbox_name": "悠久",
       "tier": "lite"
     },
     {
@@ -701,6 +705,10 @@
     },
     {
       "fanbox_name": "涼色",
+      "tier": "lite"
+    },
+    {
+      "fanbox_name": "萬田",
       "tier": "lite"
     },
     {
