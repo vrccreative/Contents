@@ -231,7 +231,8 @@
         "perm_grab_rod",
         "perm_image_pad",
         "perm_world_status",
-        "perm_teleport_admin"
+        "perm_teleport_admin",
+        "perm_ops_log"
       ]
     },
     {
