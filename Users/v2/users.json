@@ -133,12 +133,12 @@
         "perm_grab_rod",
         "perm_image_pad",
         "perm_world_status",
-        "tag_group_owner",
         "perm_teleport_admin",
         "perm_cardboard",
         "perm_reset_pen",
         "perm_stage_control",
-        "perm_ops_log"
+        "perm_ops_log",
+        "tag_group_owner"
       ]
     },
     {
@@ -148,12 +148,12 @@
         "perm_grab_rod",
         "perm_image_pad",
         "perm_world_status",
-        "tag_group_owner",
         "perm_teleport_admin",
         "perm_cardboard",
         "perm_reset_pen",
         "perm_stage_control",
-        "perm_ops_log"
+        "perm_ops_log",
+        "tag_group_owner"
       ]
     },
     {
@@ -163,87 +163,88 @@
         "perm_grab_rod",
         "perm_image_pad",
         "perm_world_status",
-        "tag_group_owner",
         "perm_teleport_admin",
         "perm_cardboard",
         "perm_reset_pen",
         "perm_stage_control",
-        "perm_ops_log"
+        "perm_ops_log",
+        "tag_group_owner"
       ]
     },
     {
       "player_name": "れいんつ",
       "roles": [
-        "tag_world_creator",
         "perm_megaphone",
+        "perm_grab_rod",
         "perm_image_pad",
         "perm_world_status",
         "perm_teleport_admin",
         "perm_cardboard",
         "perm_reset_pen",
-        "perm_grab_rod",
         "perm_stage_control",
-        "perm_ops_log"
+        "perm_ops_log",
+        "perm_level_restore",
+        "tag_world_creator"
       ]
     },
     {
       "player_name": "犬乃ぴすけ",
       "roles": [
-        "tag_staff",
         "perm_megaphone",
         "perm_grab_rod",
         "perm_image_pad",
         "perm_world_status",
         "perm_teleport_admin",
         "perm_cardboard",
-        "perm_reset_pen"
+        "perm_reset_pen",
+        "tag_staff"
       ]
     },
     {
       "player_name": "hikka06",
       "roles": [
-        "tag_staff",
         "perm_megaphone",
         "perm_grab_rod",
+        "perm_image_pad",
         "perm_teleport_admin",
         "perm_cardboard",
-        "perm_image_pad",
         "perm_reset_pen",
-        "perm_ops_log"
+        "perm_ops_log",
+        "tag_staff"
       ]
     },
     {
       "player_name": "ichiもく",
       "roles": [
-        "tag_staff",
-        "perm_megaphone",
-        "perm_grab_rod",
-        "perm_image_pad",
-        "perm_world_status",
-        "perm_teleport_admin"
-      ]
-    },
-    {
-      "player_name": "水瀬ハク",
-      "roles": [
-        "tag_staff",
         "perm_megaphone",
         "perm_grab_rod",
         "perm_image_pad",
         "perm_world_status",
         "perm_teleport_admin",
-        "perm_ops_log"
+        "tag_staff"
+      ]
+    },
+    {
+      "player_name": "水瀬ハク",
+      "roles": [
+        "perm_megaphone",
+        "perm_grab_rod",
+        "perm_image_pad",
+        "perm_world_status",
+        "perm_teleport_admin",
+        "perm_ops_log",
+        "tag_staff"
       ]
     },
     {
       "player_name": "想海さゆき",
       "roles": [
-        "tag_staff",
         "perm_megaphone",
         "perm_grab_rod",
         "perm_image_pad",
         "perm_world_status",
-        "perm_teleport_admin"
+        "perm_teleport_admin",
+        "tag_staff"
       ]
     },
     {
@@ -255,10 +256,10 @@
     {
       "player_name": "halutuba",
       "roles": [
-        "tag_staff",
         "perm_megaphone",
+        "perm_grab_rod",
         "perm_image_pad",
-        "perm_grab_rod"
+        "tag_staff"
       ]
     },
     {
@@ -268,8 +269,8 @@
         "perm_grab_rod",
         "perm_image_pad",
         "perm_teleport_admin",
-        "perm_stage_control",
-        "perm_cardboard"
+        "perm_cardboard",
+        "perm_stage_control"
       ]
     }
   ],
