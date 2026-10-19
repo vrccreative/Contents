@@ -131,6 +131,10 @@
     {
       "player_name": "稲荷凪_dayo",
       "tier": "lite"
+    },
+    {
+      "player_name": "kosamebi taki",
+      "tier": "lite"
     }
   ],
   "admin": [
@@ -394,6 +398,10 @@
       "tier": "lite"
     },
     {
+      "fanbox_name": "kogitune_ui",
+      "tier": "lite"
+    },
+    {
       "fanbox_name": "KTORI",
       "tier": "lite"
     },
@@ -463,6 +471,10 @@
     },
     {
       "fanbox_name": "Swel",
+      "tier": "lite"
+    },
+    {
+      "fanbox_name": "taki",
       "tier": "lite"
     },
     {
