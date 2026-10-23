@@ -277,12 +277,7 @@
     {
       "player_name": "AdHoc_owner",
       "roles": [
-        "perm_megaphone",
-        "perm_grab_rod",
-        "perm_image_pad",
-        "perm_teleport_admin",
-        "perm_cardboard",
-        "perm_stage_control"
+        "perm_image_pad"
       ]
     }
   ],
