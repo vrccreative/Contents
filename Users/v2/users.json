@@ -279,6 +279,15 @@
       "roles": [
         "perm_image_pad"
       ]
+    },
+    {
+      "player_name": "sleeping_now",
+      "roles": [
+        "perm_megaphone",
+        "perm_image_pad",
+        "perm_stage_control",
+        "tag_staff"
+      ]
     }
   ],
   "staff": [
