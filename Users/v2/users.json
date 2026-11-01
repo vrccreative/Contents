@@ -89,7 +89,7 @@
       "tier": "standard"
     },
     {
-      "player_name": "FILEIN",
+      "player_name": "-CLO",
       "tier": "lite"
     },
     {
@@ -139,6 +139,10 @@
     {
       "player_name": "afro-da-afro",
       "tier": "standard"
+    },
+    {
+      "player_name": "iris_01",
+      "tier": "lite"
     }
   ],
   "admin": [
@@ -338,6 +342,10 @@
       "tier": "lite"
     },
     {
+      "fanbox_name": "awayoi",
+      "tier": "lite"
+    },
+    {
       "fanbox_name": "banado",
       "tier": "lite"
     },
@@ -367,10 +375,6 @@
     },
     {
       "fanbox_name": "fasterdeep0026",
-      "tier": "lite"
-    },
-    {
-      "fanbox_name": "FILEIN",
       "tier": "lite"
     },
     {
@@ -498,10 +502,6 @@
       "tier": "lite"
     },
     {
-      "fanbox_name": "あおいるり",
-      "tier": "lite"
-    },
-    {
       "fanbox_name": "あきかんさばこ＠FANBOX",
       "tier": "lite"
     },
@@ -556,6 +556,10 @@
     {
       "fanbox_name": "サイン",
       "tier": "lite"
+    },
+    {
+      "fanbox_name": "さたにあ",
+      "tier": "premium"
     },
     {
       "fanbox_name": "しかか",
@@ -686,6 +690,10 @@
       "tier": "lite"
     },
     {
+      "fanbox_name": "黒猫のそれ／かたわれ",
+      "tier": "lite"
+    },
+    {
       "fanbox_name": "最上谷ゆー",
       "tier": "lite"
     },
@@ -739,10 +747,6 @@
     },
     {
       "fanbox_name": "涼色",
-      "tier": "lite"
-    },
-    {
-      "fanbox_name": "萬田",
       "tier": "lite"
     },
     {
