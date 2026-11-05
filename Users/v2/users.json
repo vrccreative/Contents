@@ -158,6 +158,7 @@
         "perm_reset_pen",
         "perm_stage_control",
         "perm_ops_log",
+        "perm_sliden",
         "tag_group_owner"
       ]
     },
@@ -173,6 +174,7 @@
         "perm_reset_pen",
         "perm_stage_control",
         "perm_ops_log",
+        "perm_sliden",
         "tag_group_owner"
       ]
     },
@@ -188,6 +190,7 @@
         "perm_reset_pen",
         "perm_stage_control",
         "perm_ops_log",
+        "perm_sliden",
         "tag_group_owner"
       ]
     },
@@ -204,6 +207,7 @@
         "perm_stage_control",
         "perm_ops_log",
         "perm_level_restore",
+        "perm_sliden",
         "tag_world_creator"
       ]
     },
