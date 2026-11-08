@@ -1,7 +1,9 @@
 {
   "grants": {
     "0a4670e9": [
-      "frame_v1_012_logo"
+      "frame_v1_012_logo",
+      "icon_v1_020_kami",
+      "icon_v1_024_tofuonthefire"
     ]
   }
 }
