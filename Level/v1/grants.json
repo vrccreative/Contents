@@ -1,3 +1,7 @@
 {
-  "grants": {}
+  "grants": {
+    "0a4670e9": [
+      "frame_v1_012_logo"
+    ]
+  }
 }
