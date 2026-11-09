@@ -1,3 +1,216 @@
 {
-  "grants": {}
+  "grants": {
+    "12739482": [
+      "icon_c01_057_mururu"
+    ],
+    "85390605": [
+      "icon_c01_009_choco",
+      "icon_c01_012_dakkou",
+      "icon_c01_040_manuka"
+    ],
+    "07890ad9": [
+      "frame_c01_003_oyasumi_nekochan",
+      "icon_c01_015_mutto_moon",
+      "icon_c01_028_tuner"
+    ],
+    "0a67fd96": [
+      "icon_c01_017_tooth"
+    ],
+    "0e46e64d": [
+      "icon_c01_048_beruserina"
+    ],
+    "160d5b32": [
+      "icon_c01_002_hiyoko"
+    ],
+    "1b74e36a": [
+      "icon_c01_020_obake",
+      "icon_c01_041_rwerutu",
+      "icon_c01_051_simekiri_yabai"
+    ],
+    "1ba1e52d": [
+      "icon_c01_006_kyabetsu",
+      "icon_c01_026_mainichi_nichiyou"
+    ],
+    "1d8dbe65": [
+      "frame_c01_001_machine",
+      "icon_c01_013_nagareboshi",
+      "icon_c01_025_matsuri"
+    ],
+    "28ddaf2f": [
+      "icon_c01_037_shinano"
+    ],
+    "2ad10b6e": [
+      "icon_c01_069_ramen"
+    ],
+    "2b1609e6": [
+      "icon_c01_050_kanata"
+    ],
+    "2c1a327c": [
+      "icon_c01_010_ichigo"
+    ],
+    "2f54888b": [
+      "icon_c01_016_jaga_butter"
+    ],
+    "40d42ffe": [
+      "frame_c01_006_kaiga",
+      "icon_c01_005_denkyuu"
+    ],
+    "48da8ffa": [
+      "icon_c01_072_oumugai"
+    ],
+    "4cf5933d": [
+      "icon_c01_061_isanai_nuku",
+      "icon_c01_063_monimoni_konika"
+    ],
+    "4ebbecd9": [
+      "icon_c01_007_megane"
+    ],
+    "4eccb7fa": [
+      "icon_c01_062_snow"
+    ],
+    "59d6360f": [
+      "frame_c01_009_gal",
+      "icon_c01_054_ice_cocoa"
+    ],
+    "5c125bd5": [
+      "icon_c01_055_medamayaki"
+    ],
+    "5cb873ee": [
+      "frame_c01_002_shokupan",
+      "frame_c01_020_mamehinata",
+      "icon_c01_014_shortcake",
+      "icon_c01_030_sabaramu"
+    ],
+    "5f2fda0c": [
+      "icon_c01_029_chocolat"
+    ],
+    "5fc26918": [
+      "icon_c01_073_kizetsu_sunzen"
+    ],
+    "62f9c695": [
+      "icon_c01_039_hikarun"
+    ],
+    "69e5bdc2": [
+      "icon_c01_036_lapwing"
+    ],
+    "6cb486e9": [
+      "icon_c01_008_shiitake",
+      "icon_c01_011_riku_boshuu"
+    ],
+    "794b4405": [
+      "icon_c01_059_abaddon"
+    ],
+    "7de6aa0a": [
+      "icon_c01_023_marudora"
+    ],
+    "7fc3113d": [
+      "icon_c01_034_mururu_tegaki"
+    ],
+    "80e4e456": [
+      "frame_c01_015_ninjin_batake",
+      "icon_c01_031_rirureo",
+      "icon_c01_052_waiwai_tanukitsune",
+      "icon_c01_074_try_try_try"
+    ],
+    "812c784c": [
+      "frame_c01_008_fire",
+      "icon_c01_019_tonakai"
+    ],
+    "8c703e83": [
+      "icon_c01_064_suuria_usagi"
+    ],
+    "8f614eab": [
+      "icon_c01_049_nemo"
+    ],
+    "9124b654": [
+      "frame_c01_004_ameame_rhythm"
+    ],
+    "961ff0cf": [
+      "icon_c01_047_salt"
+    ],
+    "a05ddf8e": [
+      "icon_c01_032_kanpeki_maid_mellotron"
+    ],
+    "a2a0abd5": [
+      "icon_c01_042_korone"
+    ],
+    "a74b9414": [
+      "frame_c01_017_uneune_nikukai",
+      "icon_c01_071_shinzou"
+    ],
+    "a7f352bf": [
+      "icon_c01_033_nyuma"
+    ],
+    "aa8b64a7": [
+      "icon_c01_043_rikorine"
+    ],
+    "ac39072f": [
+      "frame_c01_016_kitte"
+    ],
+    "ae4e7fa3": [
+      "icon_c01_053_takosan_wiener"
+    ],
+    "b0e5de53": [
+      "frame_c01_005_gaming",
+      "icon_c01_022_nekochiyan",
+      "icon_c01_068_dopagaki",
+      "icon_c01_070_gpu"
+    ],
+    "b3da611b": [
+      "icon_c01_004_lesser_panda"
+    ],
+    "b5233a97": [
+      "frame_c01_011_sugar_lace",
+      "icon_c01_066_masami_taro"
+    ],
+    "b6a0365b": [
+      "icon_c01_003_hamster"
+    ],
+    "bd2c87a5": [
+      "frame_c01_019_shima",
+      "icon_c01_021_chikyuu"
+    ],
+    "c43a58fa": [
+      "frame_c01_007_waku",
+      "frame_c01_010_media_offline",
+      "icon_c01_046_kuronka",
+      "icon_c01_067_iwatte_yaru"
+    ],
+    "d6e6b204": [
+      "frame_c01_018_kuma",
+      "icon_c01_044_milfy"
+    ],
+    "d71e06ac": [
+      "frame_c01_012_tenshi_kei",
+      "icon_c01_024_uomaru",
+      "icon_c01_056_tenshi_no_hane"
+    ],
+    "e26e097d": [
+      "frame_c01_014_crimsoms",
+      "icon_c01_038_crimsom"
+    ],
+    "e8b25103": [
+      "icon_c01_058_shaofa",
+      "icon_c01_060_isuka"
+    ],
+    "e8bcd4f5": [
+      "frame_c01_013_bakery_wood",
+      "icon_c01_035_azuki"
+    ],
+    "e8e8a6a8": [
+      "icon_c01_045_karin"
+    ],
+    "ee233354": [
+      "icon_c01_027_oishii_rebanira"
+    ],
+    "f6054252": [
+      "icon_c01_018_gal_unccho"
+    ],
+    "f754e6c0": [
+      "icon_c01_065_aries_kun"
+    ],
+    "f86c5a70": [
+      "icon_c01_001_goat"
+    ]
+  }
 }
