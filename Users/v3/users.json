@@ -175,6 +175,7 @@
     "NOXvenda85": "tag_prop_modeler",
     "halutuba": "perm_megaphone,perm_grab_rod,perm_image_pad,tag_staff",
     "AdHoc_owner": "perm_image_pad",
-    "sleeping_now": "perm_megaphone,perm_image_pad,perm_stage_control,tag_staff"
+    "sleeping_now": "perm_megaphone,perm_image_pad,perm_stage_control,tag_staff",
+    "想海さゆき_イベント用": "perm_megaphone,perm_grab_rod,perm_image_pad,perm_world_status,perm_teleport_admin,tag_staff"
   }
 }
